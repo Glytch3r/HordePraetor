@@ -1,0 +1,112 @@
+module HordePraetor
+{
+    item PraetorSuit
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        Weight = 8.0,
+        Icon = PraetorSuit,
+        BiteDefense = 20,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        BodyLocation = base:fullsuithead,
+        ClothingItem = HordePraetor_PraetorSuit,
+        Insulation = 0.65,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 40,
+        WindResistance = 0.9,
+        HearingModifier = 0.9,
+    }
+
+    model Crucible
+    {
+        mesh = WorldItems/HordePraetor_Crucible,
+        texture = WorldItems/HordePraetor_Crucible,
+        attachment world
+        {
+            offset = 0.0155 0.2859 0.015,
+            rotate = -180.0 0.0 177.566,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.013 0.0001 0.0025,
+            rotate = -23.8537 -86.6222 -22.0887,
+        }
+    }
+
+    item Crucible
+    {
+        DisplayCategory = Weapon,
+        ItemType = base:weapon,
+        Weight = 2.0,
+        Icon = Crucible,
+        AttachmentType = Sword,
+        BaseSpeed = 1.0,
+        BreakSound = KatanaBreak,
+        Categories = base:longblade,
+        ConditionLowerChanceOneIn = 15,
+        ConditionMax = 10,
+        CritDmgMultiplier = 6.0,
+        CriticalChance = 35.0,
+        DamageCategory = Slash,
+        DamageMakeHole = true,
+        DoorDamage = 8,
+        DoorHitSound = KatanaHit,
+        DropSound = KatanaDrop,
+        HitAngleMod = -30.0,
+        HitFloorSound = KatanaHit,
+        HitSound = KatanaHit,
+        ImpactSound = KatanaHit,
+        KnockBackOnNoDeath = true,
+        KnockdownMod = 0.0,
+        MaxDamage = 8.0,
+        MaxHitcount = 3,
+        MaxRange = 1.4,
+        MinAngle = 0.8,
+        MinDamage = 8.0,
+        MinRange = 0.61,
+        MinimumSwingtime = 3.0,
+        PushBackMod = 0.5,
+        RunAnim = Run_Weapon2,
+        StaticModel = Crucible,
+        SubCategory = Swinging,
+        SwingAmountBeforeImpact = 0.02,
+        SwingAnim = Bat,
+        SwingSound = KatanaSwing,
+        Swingtime = 3.0,
+        Tags = base:ignorezombiedensity;base:hasmetal;base:fullblade,
+        TreeDamage = 1,
+        TwoHandWeapon = true,
+        WeaponLength = 0.4,
+        WeaponSprite = Crucible,
+        WorldStaticModel = Crucible,
+        Sharpness = 1.0,
+        OnBreak = OnBreak.Katana,
+    }
+
+    model BreachShield
+    {
+        mesh = WorldItems/HordePraetor_BreachShield,
+        texture = WorldItems/HordePraetor_BreachShield,
+        attachment world
+        {
+            offset = 0.0 0.0 0.0,
+            rotate = 0.0 0.0 0.0,
+        }
+        attachment Bip01_Prop1
+        {
+            offset = 0.0 0.0 0.0,
+            rotate = 0.0 0.0 0.0,
+        }
+    }
+
+    item BreachShield
+    {
+        DisplayCategory = Equipment,
+        ItemType = base:normal,
+        Weight = 6.0,
+        Icon = BreachShield,
+        StaticModel = BreachShield,
+        WorldStaticModel = BreachShield,
+        Tags = base:hasmetal,
+    }
+}
