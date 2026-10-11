@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <clothingItem>
-	<m_MaleModel>media\models_X\Skinned\Clothes\M_PraetorSuit.fbx</m_MaleModel>
-	<m_FemaleModel>media\models_X\Skinned\Clothes\F_PraetorSuit.fbx</m_FemaleModel>
+	<m_MaleModel>media\models_X\Skinned\Clothes\M_PraetorSuit.X</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\F_PraetorSuit.X</m_FemaleModel>
 	<m_AltMaleModel></m_AltMaleModel>
 	<m_AltFemaleModel></m_AltFemaleModel>
 	<m_GUID>8630e8d2-70bb-43f4-949d-699c1684fe12</m_GUID>

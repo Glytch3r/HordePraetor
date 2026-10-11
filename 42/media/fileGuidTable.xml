@@ -4,4 +4,12 @@
 		<path>media/clothing/clothingItems/HordePraetor_PraetorSuit.xml</path>
 		<guid>8630e8d2-70bb-43f4-949d-699c1684fe12</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/HordePraetor_BreachShield.xml</path>
+		<guid>0fa6323b-3d10-4c90-8a93-51759aba4f50</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HordePraetor_PraetorHelmet.xml</path>
+		<guid>09c48a45-c1a8-44e7-920f-4fbb7190f426</guid>
+	</files>
 </fileGuidTable>

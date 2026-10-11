@@ -17,6 +17,21 @@ module HordePraetor
         HearingModifier = 0.9,
     }
 
+    item PraetorHelmet
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        Weight = 2.0,
+        Icon = PraetorSuit,
+        BiteDefense = 20,
+        BloodLocation = Head,
+        BodyLocation = base:hat,
+        CanHaveHoles = false,
+        ClothingItem = HordePraetor_PraetorHelmet,
+        ScratchDefense = 40,
+        Tags = base:wearable;base:hasmetal;base:equippable,
+    }
+
     model Crucible
     {
         mesh = WorldItems/HordePraetor_Crucible,
@@ -67,7 +82,7 @@ module HordePraetor
         MinimumSwingtime = 3.0,
         PushBackMod = 0.5,
         RunAnim = Run_Weapon2,
-        StaticModel = Crucible,
+        StaticModel = HordePraetor.Crucible,
         SubCategory = Swinging,
         SwingAmountBeforeImpact = 0.02,
         SwingAnim = Bat,
@@ -77,8 +92,8 @@ module HordePraetor
         TreeDamage = 1,
         TwoHandWeapon = true,
         WeaponLength = 0.4,
-        WeaponSprite = Crucible,
-        WorldStaticModel = Crucible,
+        WeaponSprite = HordePraetor.Crucible,
+        WorldStaticModel = HordePraetor.Crucible,
         Sharpness = 1.0,
         OnBreak = OnBreak.Katana,
     }
@@ -99,14 +114,29 @@ module HordePraetor
         }
     }
 
+    model BreachShieldGround
+    {
+        mesh = WorldItems/HordePraetor_BreachShield_Ground,
+        texture = WorldItems/HordePraetor_BreachShield,
+        attachment world
+        {
+            offset = 0.0 0.0 0.0,
+            rotate = 0.0 0.0 0.0,
+        }
+    }
+
     item BreachShield
     {
         DisplayCategory = Equipment,
-        ItemType = base:normal,
+        ItemType = base:clothing,
         Weight = 6.0,
         Icon = BreachShield,
+        BodyLocation = base:back,
+        BloodLocation = Bag,
+        CanHaveHoles = false,
+        ClothingItem = HordePraetor_BreachShield,
         StaticModel = BreachShield,
-        WorldStaticModel = BreachShield,
-        Tags = base:hasmetal,
+        WorldStaticModel = BreachShieldGround,
+        Tags = base:hasmetal;base:wearable;base:equippable,
     }
 }
