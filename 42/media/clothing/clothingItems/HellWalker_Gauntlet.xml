@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Praetor\Gauntlet.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Praetor\Gauntlet.fbx</m_FemaleModel>
+	<m_GUID>65ab0e34-91bf-4cbb-9ca6-efb1e26f7d10</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\HellWalker\Suit</textureChoices>
+</clothingItem>

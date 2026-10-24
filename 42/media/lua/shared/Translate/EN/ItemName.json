@@ -1,6 +1,19 @@
 {
-    "HordePraetor.PraetorSuit": "Praetor Suit",
-    "HordePraetor.Crucible": "The Crucible",
-    "HordePraetor.BreachShield": "Praetor Breach Shield",
-    "HordePraetor.PraetorHelmet": "Praetor Helmet"
+    "HellWalker.Suit": "HellWalker Suit",
+    "HellWalker.Armor": "HellWalker Armor",
+    "HellWalker.Armor_Open": "HellWalker Armor Open",
+    "HellWalker.Cape": "HellWalker Cape",
+    "HellWalker.Crucible": "The Crucible",
+    "HellWalker.BreachShield_Right": "HellWalker Breach Shield",
+    "HellWalker.BreachShield_Left": "HellWalker Breach Shield",
+    "HellWalker.Helmet": "HellWalker Helmet",
+    "HellWalker.Breastplate": "HellWalker Breastplate",
+    "HellWalker.Vambrace": "HellWalker Vambrace",
+    "HellWalker.Gauntlet": "HellWalker Gauntlet",
+    "HellWalker.Backpack": "HellWalker Backpack",
+    "HellWalker.Backpack_NoCape": "HellWalker Backpack",
+    "HellWalker.Leggings": "HellWalker Leggings",
+    "HellWalker.Cuisse": "HellWalker Cuisse",
+    "HellWalker.Greaves": "HellWalker Greaves",
+    "HellWalker.Sabatons": "HellWalker Sabatons"
 }

@@ -1,15 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fileGuidTable>
 	<files>
-		<path>media/clothing/clothingItems/HordePraetor_PraetorSuit.xml</path>
-		<guid>8630e8d2-70bb-43f4-949d-699c1684fe12</guid>
+		<path>media/clothing/clothingItems/HellWalker_Armor.xml</path>
+		<guid>f9e76a55-1c38-47bd-9854-b2c3f3a52a0e</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/HellWalker_Armor_Open.xml</path>
+		<guid>21b33b69-7ba7-4267-83e0-7adb89267a5d</guid>
 	</files>
 	<files>
-		<path>media/clothing/clothingItems/HordePraetor_BreachShield.xml</path>
-		<guid>0fa6323b-3d10-4c90-8a93-51759aba4f50</guid>
+		<path>media/clothing/clothingItems/HellWalker_BreachShield_Right.xml</path>
+		<guid>24db5394-f413-4d1a-a8e8-0ff440245c6b</guid>
 	</files>
 	<files>
-		<path>media/clothing/clothingItems/HordePraetor_PraetorHelmet.xml</path>
+		<path>media/clothing/clothingItems/HellWalker_BreachShield_Left.xml</path>
+		<guid>957bb84e-219a-468d-97da-80904bd665b7</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HellWalker_Helmet.xml</path>
 		<guid>09c48a45-c1a8-44e7-920f-4fbb7190f426</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HellWalker_Gauntlet.xml</path>
+		<guid>65ab0e34-91bf-4cbb-9ca6-efb1e26f7d10</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HellWalker_Vambrace.xml</path>
+		<guid>f8cbd2aa-c3df-4b7e-9f73-ecf1e84bcb64</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HellWalker_Backpack.xml</path>
+		<guid>0e5881c2-0e56-4bbc-b04f-9f166f1c7b45</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HellWalker_Backpack_NoCape.xml</path>
+		<guid>3bcf34f5-f5db-47f4-9df1-9a7c9c9c2d4e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HellWalker_Leggings.xml</path>
+		<guid>b09b126c-6170-4ccc-a341-16c5edf387b9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HellWalker_Cuisse.xml</path>
+		<guid>94bba3d7-4434-4e19-8600-8ffd798ca9cd</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HellWalker_Greaves.xml</path>
+		<guid>84d57ab0-3502-4918-84eb-6682f79250c7</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HellWalker_Sabatons.xml</path>
+		<guid>028ca102-a2ec-48e5-9333-f68411e3d356</guid>
 	</files>
 </fileGuidTable>

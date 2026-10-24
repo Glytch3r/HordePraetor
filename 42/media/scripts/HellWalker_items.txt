@@ -1,0 +1,351 @@
+module HellWalker
+{
+    item Suit
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        Weight = 8.0,
+        Icon = Suit,
+        BiteDefense = 20,
+        BloodLocation = Trousers;Jumper;Neck;Hands;Shoes,
+        BodyLocation = base:fullsuit,
+        ClothingItem = HellWalker_Suit,
+        Insulation = 0.65,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 40,
+        WindResistance = 0.9,
+        HearingModifier = 0.9,
+    }
+
+    item Armor
+    {
+        DisplayCategory = ProtectiveGear,
+        ItemType = base:clothing,
+        Weight = 8.0,
+        Icon = Suit,
+        BiteDefense = 20, 
+        BloodLocation = ShirtNoSleeves,
+        BodyLocation = base:jacket_bulky,
+        ClothingItem = HellWalker_Armor,
+        Insulation = 0.65,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 40,
+        WindResistance = 0.9,
+        ClothingExtraSubmenu = ArmorStyle,
+        ClothingItemExtra = HellWalker.Armor_Open,
+        ClothingItemExtraOption = OpenArmor,
+
+    }
+
+    item Armor_Open
+    {
+        DisplayCategory = ProtectiveGear,
+        ItemType = base:clothing,
+        Weight = 8.0,
+        Icon = Suit,
+        BiteDefense = 20, 
+        BloodLocation = ShirtNoSleeves,
+        BodyLocation = base:jacket_bulky,
+        ClothingItem = HellWalker_Armor_Open,
+        Insulation = 0.65,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 40,
+        WindResistance = 0.9,
+        ClothingExtraSubmenu = ArmorStyle,
+        ClothingItemExtra = HellWalker.Armor,
+        ClothingItemExtraOption = ClosedArmor,
+
+    }
+
+
+
+    item Vambrace
+    {
+        DisplayCategory = ProtectiveGear,
+        ItemType = base:clothing,
+        Weight = 2.0,
+        Icon = Suit,
+        BloodLocation = ForeArm_L;ForeArm_R,
+        BodyLocation = base:forearm_right,
+        CanHaveHoles = false,
+        ClothingItem = HellWalker_Vambrace,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        Tags = base:hasmetal,
+    }
+
+    item Gauntlet
+    {
+        DisplayCategory = ProtectiveGear,
+        ItemType = base:clothing,
+        Weight = 1.0,
+        Icon = Suit,
+        BloodLocation = Hand_R,
+        BodyLocation = base:handsright,
+        CanHaveHoles = false,
+        ClothingItem = HellWalker_Gauntlet,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        Tags = base:hasmetal,
+    }
+
+    item Leggings
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        Weight = 1.5,
+        Icon = Suit,
+        BloodLocation = Trousers,
+        BodyLocation = base:legs1,
+        CanHaveHoles = false,
+        ClothingItem = HellWalker_Leggings,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+    }
+
+    item Greaves
+    {
+        DisplayCategory = ProtectiveGear,
+        ItemType = base:clothing,
+        Weight = 2.0,
+        Icon = Suit,
+        BloodLocation = LowerLeg_L;LowerLeg_R,
+        BodyLocation = base:calf_right,
+        CanHaveHoles = false,
+        ClothingItem = HellWalker_Greaves,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        Tags = base:hasmetal,
+    }
+
+    item Sabatons
+    {
+        DisplayCategory = ProtectiveGear,
+        ItemType = base:clothing,
+        Weight = 2.0,
+        Icon = Suit,
+        BloodLocation = Shoes,
+        BodyLocation = base:shoes,
+        CanHaveHoles = false,
+        ClothingItem = HellWalker_Sabatons,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        Tags = base:hasmetal,
+    }
+
+    item Backpack
+    {
+        DisplayCategory = Bag,
+        ItemType = base:container,
+        Weight = 2.0,
+        Icon = Suit,
+        AttachmentReplacement = Bag,
+        BloodLocation = Bag,
+        CanBeEquipped = base:back,
+        BodyLocation = base:back,
+        CanHaveHoles = false,
+        Capacity = 30,
+        CloseSound = CloseBag,
+        ClothingItem = HellWalker_Backpack,
+        EquipSound = EquipBackpackLarge,
+        OpenSound = OpenBag,
+        PutInSound = PutItemInBag,
+        RunSpeedModifier = 0.95,
+        WeightReduction = 80,
+        Tags = base:hasmetal,
+        ClothingExtraSubmenu = BackpackStyle,
+        ClothingItemExtra = HellWalker.Backpack_NoCape,
+        ClothingItemExtraOption = NoCape,
+    }
+
+    item Backpack_NoCape
+    {
+        DisplayCategory = Bag,
+        ItemType = base:container,
+        Weight = 2.0,
+        Icon = Suit,
+        AttachmentReplacement = Bag,
+        BloodLocation = Bag,
+        CanBeEquipped = base:back,
+        BodyLocation = base:back,
+        CanHaveHoles = false,
+        Capacity = 30,
+        CloseSound = CloseBag,
+        ClothingExtraSubmenu = BackpackStyle,
+        ClothingItemExtra = HellWalker.Backpack,
+        ClothingItemExtraOption = Cape,
+        ClothingItem = HellWalker_Backpack_NoCape,
+        EquipSound = EquipBackpackLarge,
+        OpenSound = OpenBag,
+        PutInSound = PutItemInBag,
+        RunSpeedModifier = 0.95,
+        WeightReduction = 80,
+        Tags = base:hasmetal,
+    }
+
+    item Helmet
+    {
+        DisplayCategory = ProtectiveGear,
+        ItemType = base:clothing,
+        Weight = 2.0,
+        Icon = Suit,
+        BiteDefense = 20,
+        BloodLocation = FullHelmet,
+        BodyLocation = base:fullhat,
+        CanHaveHoles = false,
+        ChanceToFall = 0,
+        ClothingItem = HellWalker_Helmet,
+        ScratchDefense = 40,
+        Tags = base:hasmetal,
+    }
+
+    model Crucible
+    {
+        mesh = weapons/2handed/HellWalker_Crucible,
+        texture = WorldItems/HellWalker_Crucible,
+        attachment world
+        {
+            offset = 0.0155 0.2859 0.015,
+            rotate = 2.434001 89.999996 0.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.013 0.0001 0.0025,
+            rotate = 1.367316 -176.911025 -45.979269,
+        }
+    }
+
+    item Crucible
+    {
+        PrismData = 1:0:0:1:6:2.5:true,
+        DisplayCategory = Weapon,
+        ItemType = base:weapon,
+        Weight = 2.0,
+        Icon = Crucible,
+        AttachmentType = Sword,
+        BaseSpeed = 1.0,
+        BreakSound = KatanaBreak,
+        Categories = base:longblade,
+        ConditionLowerChanceOneIn = 15,
+        ConditionMax = 10,
+        CritDmgMultiplier = 6.0,
+        CriticalChance = 35.0,
+        DamageCategory = Slash,
+        DamageMakeHole = true,
+        DoorDamage = 8,
+        DoorHitSound = KatanaHit,
+        DropSound = KatanaDrop,
+        HitAngleMod = -30.0,
+        HitFloorSound = KatanaHit,
+        HitSound = KatanaHit,
+        ImpactSound = KatanaHit,
+        KnockBackOnNoDeath = true,
+        KnockdownMod = 0.0,
+        MaxDamage = 8.0,
+        MaxHitcount = 3,
+        MaxRange = 1.4,
+        MinAngle = 0.8,
+        MinDamage = 8.0,
+        MinRange = 0.61,
+        MinimumSwingtime = 3.0,
+        PushBackMod = 0.5,
+        RunAnim = Run_Weapon2,
+        StaticModel = HellWalker.Crucible,
+        SubCategory = Swinging,
+        SwingAmountBeforeImpact = 0.02,
+        SwingAnim = Bat,
+        SwingSound = KatanaSwing,
+        Swingtime = 3.0,
+        Tags = base:ignorezombiedensity;base:hasmetal;base:fullblade,
+        TreeDamage = 1,
+        TwoHandWeapon = true,
+        WeaponLength = 0.4,
+        WeaponSprite = HellWalker.Crucible,
+        Sharpness = 1.0,
+        OnBreak = OnBreak.Katana,
+        Researchablerecipes = Forge_Crude_Shortsword_Blade;Forge_Crude_Sword_Blade;Forge_ShortSwordBlade;Forge_Sword_Blade;Forge_Straight_Razor,
+    }
+
+    model BreachShieldRightCalibration
+    {
+        mesh = Static/Clothes/HellWalker_BreachShield_Right,
+        texture = WorldItems/HellWalker_BreachShield,
+        attachment Bip01_R_Forearm
+        {
+            offset = 0.0 0.0 0.0,
+            rotate = 0.0 0.0 0.0,
+        }
+    }
+
+    model BreachShieldLeftCalibration
+    {
+        mesh = Static/Clothes/HellWalker_BreachShield_Left,
+        texture = WorldItems/HellWalker_BreachShield,
+        attachment Bip01_L_Forearm
+        {
+            offset = 0.0 0.0 0.0,
+            rotate = 0.0 0.0 0.0,
+        }
+    }
+
+    model BreachShield
+    {
+        mesh = WorldItems/HellWalker_BreachShield,
+        texture = WorldItems/HellWalker_BreachShield,
+        attachment world
+        {
+            offset = 0.0 0.0 0.0,
+            rotate = 0.0 0.0 0.0,
+        }
+        attachment Bip01_Prop1
+        {
+            offset = 0.0 0.0 0.0,
+            rotate = 0.0 0.0 0.0,
+        }
+    }
+
+    model BreachShieldGround
+    {
+        mesh = WorldItems/HellWalker_BreachShield_Ground,
+        texture = WorldItems/HellWalker_BreachShield,
+        attachment world
+        {
+            offset = 0.0 0.0 0.0,
+            rotate = 0.0 0.0 0.0,
+        }
+    }
+
+    item BreachShield_Right
+    {
+        DisplayCategory = ProtectiveGear,
+        ItemType = base:clothing,
+        Weight = 6.0,
+        Icon = BreachShield,
+        BodyLocation = base:forearm_right,
+        BloodLocation = ForeArm_R,
+        CanHaveHoles = false,
+        ClothingExtraSubmenu = RightForearm,
+        ClothingItemExtra = HellWalker.BreachShield_Left,
+        ClothingItemExtraOption = LeftForearm,
+        ClothingItem = HellWalker_BreachShield_Right,
+        WorldStaticModel = BreachShieldGround,
+        Tags = base:hasmetal,
+    }
+
+    item BreachShield_Left
+    {
+        DisplayCategory = ProtectiveGear,
+        ItemType = base:clothing,
+        Weight = 6.0,
+        Icon = BreachShield,
+        BodyLocation = base:forearm_left,
+        BloodLocation = ForeArm_L,
+        CanHaveHoles = false,
+        ClothingExtraSubmenu = LeftForearm,
+        ClothingItemExtra = HellWalker.BreachShield_Right,
+        ClothingItemExtraOption = RightForearm,
+        ClothingItem = HellWalker_BreachShield_Left,
+        WorldStaticModel = BreachShieldGround,
+        Tags = base:hasmetal,
+    }
+}

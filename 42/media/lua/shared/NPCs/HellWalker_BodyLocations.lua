@@ -1,0 +1,1 @@
+HellWalker = HellWalker or {}
